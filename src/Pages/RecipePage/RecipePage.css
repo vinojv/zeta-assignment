@@ -1,0 +1,26 @@
+.favouritesContainer {
+  border-bottom: 1px solid var(--primaryTextColor);
+}
+
+.favourites {
+  height: 172px;
+  overflow: auto;
+  display: flex;
+}
+
+.categoriesContainer {
+  display: flex;
+  height: 40px;
+  overflow: auto;
+}
+
+.category {
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.category.active {
+  background: #96a0a9;
+}

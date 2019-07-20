@@ -1,0 +1,7 @@
+.recipeDetailsPageCardWrapper {
+  width: calc(100% - 20px);
+}
+
+.recipeDetailsPageCardImage {
+  background-size: auto;
+}

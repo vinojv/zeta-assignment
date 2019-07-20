@@ -1,0 +1,28 @@
+.favourites {
+  height: 172px;
+  overflow: auto;
+  display: flex;
+}
+
+.favouritesHeader {
+  display: flex;
+  justify-content: space-between;
+  /* height: 25px; */
+  align-items: center;
+  padding: 0 10px 0 0;
+}
+
+.favouritesHeaderTitle {
+  height: 100%;
+  text-align: left;
+}
+
+.title {
+  display: block;
+  margin: 0 14px;
+  font-size: 15px;
+}
+
+.maintitle {
+  font-weight: bold;
+}
