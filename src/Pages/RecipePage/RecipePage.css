@@ -3,7 +3,7 @@
 }
 
 .favourites {
-  height: 172px;
+  height: 175px;
   overflow: auto;
   display: flex;
 }
