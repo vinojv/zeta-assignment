@@ -13,9 +13,12 @@ img {
 .recipeCardWrapper {
   height: 150px;
   width: 300px;
-  background: white;
+  background: var(--cardBg);
   margin: 10px;
   flex-shrink: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  padding: 3px;
 }
 
 .recipeCardFooter {
@@ -52,6 +55,9 @@ img {
 
 .recipeName {
   font-weight: bold;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .recipeCost {

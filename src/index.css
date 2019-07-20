@@ -5,7 +5,8 @@ html {
   --success: #009688;
   --colorWhite: #FFFFFF;
   --headerBg: #009688;
-  --border: #00152b;
+  --border: #00152b38;
+  --cardBg: #ffeaf5;
 }
 
 body {
